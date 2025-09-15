@@ -1,20 +1,27 @@
-# Keysight U2741A Multimeter Control
+Keysight U2741A Multimeter Control Application
 
 A C# console application for controlling and reading measurements from a Keysight U2741A multimeter using VISA communication.
 
-## Features
 
-- Device identification and initialization
-- DC voltage measurement configuration and reading
-- Resistance measurement configuration and reading
-- Proper resource management with IDisposable pattern
+✨ Features
 
-## Requirements
+    Device Identification: Automatically detect and identify connected Keysight U2741A instruments
 
-- .NET Framework (version as per your project)
-- VisaComLib (VISA communication library)
-- Keysight/Agilent VISA drivers installed
+    DC Voltage Measurements: Configure and read DC voltage with customizable range and precision
 
+    Resistance Measurements: Measure resistance with adjustable range settings
+
+    VISA Communication: Robust communication protocol using industry-standard VISA libraries
+
+    Resource Management: Proper disposal pattern for clean resource handling
+
+🚀 Getting Started : Prerequisites
+
+    .NET 6.0 SDK or later
+
+    Keysight/Agilent VISA Drivers
+
+    Keysight U2741A Multimeter connected via USB
 ## Installation
 
 1. Clone this repository

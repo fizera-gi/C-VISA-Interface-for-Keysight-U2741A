@@ -5,23 +5,11 @@ A C# console application for controlling and reading measurements from a Keysigh
 
 ✨ Features
 
-    Device Identification: Automatically detect and identify connected Keysight U2741A instruments
 
-    DC Voltage Measurements: Configure and read DC voltage with customizable range and precision
-
-    Resistance Measurements: Measure resistance with adjustable range settings
-
-    VISA Communication: Robust communication protocol using industry-standard VISA libraries
-
-    Resource Management: Proper disposal pattern for clean resource handling
 
 🚀 Getting Started : Prerequisites
 
-    .NET 6.0 SDK or later
-
-    Keysight/Agilent VISA Drivers
-
-    Keysight U2741A Multimeter connected via USB
+   
 ## Installation
 
 1. Clone this repository

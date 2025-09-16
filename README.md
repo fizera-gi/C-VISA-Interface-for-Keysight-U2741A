@@ -29,7 +29,7 @@ Before you can build and run this project, you need to have the following instal
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/YourUsername/Test_U2741A.git
+    git clone https://github.com/fizera-gi/Test_U2741A.git
     cd Test_U2741A
     ```
 2.  **Restore dependencies**:

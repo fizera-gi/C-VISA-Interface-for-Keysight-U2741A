@@ -29,7 +29,7 @@ Before you can build and run this project, you need to have the following instal
 
 1.  **Clone the repository**:
     ```bash
-    git git clone https://github.com/fizera-gi/C-VISA-Interface-for-Keysight-U2741A.git
+    git clone https://github.com/fizera-gi/C-VISA-Interface-for-Keysight-U2741A.git
     cd C-VISA-Interface-for-Keysight-U2741A
     ```
 2.  **Restore dependencies**:

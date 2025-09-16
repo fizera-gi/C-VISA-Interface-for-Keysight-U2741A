@@ -18,7 +18,7 @@ This project is a C\# application designed to interface with a Keysight/Agilent 
 Before you can build and run this project, you need to have the following installed:
 
   * **.NET SDK**: The project targets **.NET 8.0**. You'll need the corresponding SDK installed on your machine.
-  * **Keysight I/O Libraries**: This project relies on Keysight's VISA implementation for communication with the DMM. You must have the Keysight I/O Libraries installed. [cite\_start]The project uses the `VisaComLib` COM reference[cite: 1].
+  * **Keysight I/O Libraries**: This project relies on Keysight's VISA implementation for communication with the DMM. You must have the Keysight I/O Libraries installed. The project uses the `VisaComLib` COM reference.
   * **Correct VISA Address**: The `visaAddress` in `Program.cs` must be configured to match your specific DMM. The example address `USB0::0x0957::0x4918::MY61170017::0::INSTR` is for a Keysight U2741A, but you should verify it against your device's address in the Keysight Connection Expert.
 
 -----
@@ -36,7 +36,7 @@ Before you can build and run this project, you need to have the following instal
     ```bash
     dotnet restore
     ```
-    [cite\_start]This command will restore the necessary packages and references defined in `Test_U2741A.csproj`, including the `VisaComLib`[cite: 1].
+    This command will restore the necessary packages and references defined in `Test_U2741A.csproj`, including the `VisaComLib`[cite: 1].
 3.  **Build the project**:
     ```bash
     dotnet build
@@ -59,7 +59,7 @@ The application will then connect to the DMM, retrieve its ID, configure it for 
 
   * **`Program.cs`**: The entry point of the application. It demonstrates how to create a `CentraleMesure` object, configure the DMM, and read a value.
   * **`CentraleMesure.cs`**: This class encapsulates the VISA communication logic. It handles opening and closing the connection, sending SCPI commands, and reading responses. It includes methods for identifying the device (`Idn`), configuring and reading DC voltage (`ConfigureVdc`, `ReadVdc`), and a placeholder for resistance measurements (`ConfigureResistance`, `ReadResistance`).
-  * **`Test_U2741A.csproj`**: The project file. [cite\_start]It defines the project's target framework, includes the COM reference to `VisaComLib` [cite: 1][cite\_start], and a reference to `vxlapi_NET.dll`[cite: 2].
+  * **`Test_U2741A.csproj`**: The project file. [cite\_start]It defines the project's target framework, includes the COM reference to `VisaComLib`, and a reference to `vxlapi_NET.dll`.
 
 -----
 

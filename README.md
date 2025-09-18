@@ -59,7 +59,7 @@ The application will then connect to the DMM, retrieve its ID, configure it for 
 
   * **`Program.cs`**: The entry point of the application. It demonstrates how to create a `CentraleMesure` object, configure the DMM, and read a value.
   * **`CentraleMesure.cs`**: This class encapsulates the VISA communication logic. It handles opening and closing the connection, sending SCPI commands, and reading responses. It includes methods for identifying the device (`Idn`), configuring and reading DC voltage (`ConfigureVdc`, `ReadVdc`), and a placeholder for resistance measurements (`ConfigureResistance`, `ReadResistance`).
-  * **`Test_U2741A.csproj`**: The project file. [cite\_start]It defines the project's target framework, includes the COM reference to `VisaComLib`, and a reference to `vxlapi_NET.dll`.
+ 
 
 -----
 
